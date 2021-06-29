@@ -10,6 +10,8 @@ namespace DemoApplication
   static void Main(string[] args) 
   {
    Int32 num=30;
+   //Number has calculated
+   num = (num * 30) + 12;
    Console.Write(num);  
    
    Console.ReadKey();
